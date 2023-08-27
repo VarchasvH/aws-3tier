@@ -3,9 +3,9 @@
 A Three-Tier Architecture is one that is segmented into three parts:
 * **Presentation Layer (Front-End)** - Acts as the UI and handles the user interaction.
 * **Application Layer (Back-End)** - Responsible for Data processing and business logic.
-* **Data Layer (DataBase)** - Manages data storage and data retrival.
+* **Data Layer (DataBase)** - Manages data storage and data retrieval.
 
-This Architecture promotes the seperation of concerns and facilitates easy updates or modification to specific layers without impacting others. 
+This Architecture promotes the separation of concerns and facilitates easy updates or modification to specific layers without impacting others. 
 
 It is a shift from the monolithic way of building an application where the frontend, the backend and the database are both sitting in one place.
 ## AWS Services used
@@ -20,8 +20,8 @@ It is a shift from the monolithic way of building an application where the front
 ![Link to the structure](https://miro.medium.com/v2/resize:fit:828/format:webp/1*PDHya_zt_n657nYUAm1OeA.jpeg)
 
 ---
-## What we are trying to acheive?
-1. **Modularity:** It helps us manage each part of the application independently and it also helps us recover quickly from an unexpected disaster by foucsing solely on the faulty part.
+## What we are trying to achieve?
+1. **Modularity:** It helps us manage each part of the application independently and it also helps us recover quickly from an unexpected disaster by focusing solely on the faulty part.
 
 2. **High Scalability:** Every tier of this architecture can scale automatically when the traffic and number of requests are increased. This can easily done by using Auto Scaling groups as they scale up or down according to the network traffic and demand.
 
